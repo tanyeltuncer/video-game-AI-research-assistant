@@ -1,1 +1,2 @@
-# video-game-AI-research-assistant
+# Video game AI-research assistant
+
