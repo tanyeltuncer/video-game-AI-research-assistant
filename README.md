@@ -51,24 +51,24 @@ This project demonstrates a fully functioning multi-agent research assistant spe
 | `lib/memory.py` | Implements **Short-Term Memory** for multi-turn conversation. Stores run history by `session_id` and retrieves previous context. |
 
 #### Documents & Retrieval
-| File               | Description                                                               |
-| ------------------ | ------------------------------------------------------------------------- |
-| `lib/documents.py` | Defines the `Document` and `Corpus` structures for managing textual data. |
-| `lib/loaders.py`   | Utilities for loading and parsing documents (e.g., PDF loader).           |
+| File               | Description                                                                                                                   |
+| ------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
+| `lib/documents.py` | Defines the `Document` and `Corpus` structures for managing textual data.                                                     |
+| `lib/loaders.py`   | Utilities for loading and parsing documents (e.g., PDF loader).                                                               |
 
 #### Vector Database (RAG)
-| File               | Description                                                                                                           |
-| ------------------ | --------------------------------------------------------------------------------------------------------------------- |
-| `lib/vector_db.py` | Interface to ChromaDB. Handles vector store creation, document embedding, similarity queries, and metadata retrieval. |
+| File               | Description                                                                                                                   |
+| ------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
+| `lib/vector_db.py` | Interface to ChromaDB. Handles vector store creation, document embedding, similarity queries, and metadata retrieval.         |
 
 #### Parsing & Evaluation
-| File                | Description                                                                                        |
-| ------------------- | -------------------------------------------------------------------------------------------------- |
-| `lib/parsers.py`    | Structured parsing utilities using Pydantic. Useful for tools that must return structured answers. |
-| `lib/evaluation.py` | Logic for evaluating retrieval quality or ranking game documents.                                  |
+| File                | Description                                                                                                                   |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| `lib/parsers.py`    | Structured parsing utilities using Pydantic. Useful for tools that must return structured answers.                            |
+| `lib/evaluation.py` | Logic for evaluating retrieval quality or ranking game documents.                                                             |
 
 #### Juypter notebooks
-| Notebook                           | Purpose                                                                         |
-| ---------------------------------- | ------------------------------------------------------------------------------- |
-| `Udaplay_01_starter_project.ipynb` | Loads game data, builds the vector store, demonstrates retrieval.               |
-| `Udaplay_02_starter_project.ipynb` | Full agent demo: multi-turn conversation, memory, RAG pipeline, tool execution. |
+| Notebook                           | Purpose                                                                                                        |
+| ---------------------------------- |--------------------------------------------------------------------------------------------------------------- |
+| `Udaplay_01_starter_project.ipynb` | Loads game data, builds the vector store, demonstrates retrieval.                                              |
+| `Udaplay_02_starter_project.ipynb` | Full agent demo: multi-turn conversation, memory, RAG pipeline, tool execution.                                |
