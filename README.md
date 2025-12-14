@@ -41,9 +41,9 @@ This project demonstrates a fully functioning multi-agent research assistant spe
 | `lib/state_machine.py` | Custom state machine engine. Manages step transitions, executes workflow stages, stores snapshots, and handles reasoning runs. |
 
 #### Tooling Layer
-| File             | Description                                                                                                            |
-| ---------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| `lib/tooling.py` | Defines the `@tool` decorator and the Tool class. Converts Python functions into LLM-callable tools with JSON schemas. |
+| File             | Description                                                                                                                   |
+| ---------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| `lib/tooling.py` | Defines the `@tool` decorator and the Tool class. Converts Python functions into LLM-callable tools with JSON schemas.        |
 
 #### Memory System
 | File            | Description                                                                                                                      |
